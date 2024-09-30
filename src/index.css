@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text color */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1e1e1e; /* Slightly lighter background for header */
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #ffffff; /* Light text for links */
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #1e1e1e; /* Card-like background for sections */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1e1e1e; /* Same as header */
+}
+
+footer a {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #333; /* Dark input background */
+  color: #ffffff; /* Light text for input */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6200ea; /* Purple button */
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+}
+
+span {
+  color: #ff0000; /* Red color for error messages */
+}
