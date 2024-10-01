@@ -1,16 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Navigation from './Navigation';
 
 const Header = () => {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/about">About Me</Link>
-      <Link to="/portfolio">Portfolio</Link>
-      <Link to="/contact">Contact</Link>
-      <Link to="/resume">Resume</Link>
-    </nav>
+    <header>
+      <h1>Rahul Varughese</h1>
+      <Navigation />
+    </header>
   );
 };
 
-export default Header; // Ensure this line is present
+export default Header;
